@@ -13,8 +13,8 @@ public class Main
     {
         System.out.println("Some witches are missing from the coven");
         System.out.println("Let's brew some potions instead");
-        for (p=0;p < 24;p++) {
-          System.out.println("The Coven made"+ p + potions);
+        for (int potions=0;potions < 12;potions* 2) {
+          System.out.println("The Coven made "+ potions + " potions");
   }
     }
     else
