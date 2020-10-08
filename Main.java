@@ -8,7 +8,7 @@ class Coven {
       System.out.println("Let's the encantation begin");
       if(fullMoon=true)
       {
-         system.out.println("some witches are missing from the coven");
+         System.out.println("some witches are missing from the coven");
          System.out.println("Let's brew some potions instead");
       }
     }else
