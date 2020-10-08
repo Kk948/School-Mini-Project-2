@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main
 {
   public static void main(String[] args) 
@@ -22,14 +24,20 @@ public class Main
         System.out.println("The meeting is canceled today");
 
       }
-      System.out.println("Would you like to join the coven young witch");
+      
+     //Coven coven
       Scanner Scan = new Scanner(System.in);
 
-      String name;
       System.out.println("what's your name young witch");
-      name=Scan.next();
+      String name=Scan.next();
 
-      System.out.println("Welcome to the coven"+ name);
+      System.out.println("Would you like to join the Coven,young witch");
+      String covenResp = Scan.next();
+      
+      
+
+      System.out.println("Welcome to the Coven"+ name);
+
 
   }
   
