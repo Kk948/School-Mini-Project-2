@@ -18,9 +18,9 @@ public class Main
         System.out.println("Some witches are missing from the coven");
         System.out.println("Let's brew some potions instead");
         //The code prints out potions til the number 6
-        for (int potions=0;potions < 6 ;potions++) {
+        for (int potions=0;potions < 6 ;potions++)       {
           System.out.println("The Coven made "+ potions + " potions");
-  }
+        }
     }
     //lastly if it doesn't meet the requirements then the metting is cancelled
     else
@@ -32,17 +32,17 @@ public class Main
      //Coven coven
       Scanner Scan = new Scanner(System.in);
       Scanner Scanner= new Scanner(System.in);
-
+      //This statement asks the user's name and age
       System.out.println("What's your age?");
       int age = Scanner.nextInt();
 
       System.out.println("What's your name young witch ?");
       String name=Scan.next();
 
-
+      //This statement asks whether the user want's to join the coven
       System.out.println("Would you like to join the Coven,young witch? ");
       String covenResp = Scan.next();
-      
+      //this statement welcomes the user to the coven
       System.out.println("Welcome to the Coven "+ name + "!");
       System.out.println(" We hope you'll have a great time with our other " + age + " year old witches!");
 
