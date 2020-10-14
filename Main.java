@@ -31,10 +31,10 @@ public class Main
       
      //Coven coven
       Scanner Scan = new Scanner(System.in);
-      Scanner input= new Scanner(System.in);
+      Scanner Scanner= new Scanner(System.in);
 
       System.out.println("What's your age?");
-      int age = input.nextInt();
+      int age = Scanner.nextInt();
 
       System.out.println("What's your name young witch ?");
       String name=Scan.next();
@@ -43,7 +43,7 @@ public class Main
       System.out.println("Would you like to join the Coven,young witch? ");
       String covenResp = Scan.next();
       
-      System.out.println("Welcome to the Coven! "+ name);
+      System.out.println("Welcome to the Coven "+ name + "!");
       System.out.println(" We hope you'll have a great time with our other " + age + " year old witches!");
 
   }
